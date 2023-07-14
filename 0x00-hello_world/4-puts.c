@@ -2,7 +2,9 @@
 /**
 * main - Entry point
 *
-*Return: Always 0 (Success)
+* description: main fun
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
