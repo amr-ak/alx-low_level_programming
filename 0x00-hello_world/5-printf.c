@@ -1,8 +1,10 @@
 #include<stdio.h>
 /**
- *main -  a function named main
+ * main -  a function named main
  *
- *Return: well return
+ * Description: the C program that prints with printf function.
+ *
+ * Return: 0
  */
 int main(void)
 {
