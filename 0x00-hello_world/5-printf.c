@@ -1,9 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main -  a function named main
- *
- * Description: the C program that prints with printf function.
- *
+ * main - main block
  * Return: 0
  */
 int main(void)
