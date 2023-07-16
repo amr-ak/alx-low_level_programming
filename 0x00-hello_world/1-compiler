@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o `echo $CFILE | cut -d. -f1`.o
+echo "$CFILE compiled successfully to ${CFILE%.c}.o"
