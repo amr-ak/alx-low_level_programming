@@ -1,2 +1,5 @@
 #!/bin/bash
-gcc -S $CFILE
+CFILE="main.c"
+OUTPUT="${CFILE%.*}.s"
+gcc -S $CFILE -o $OUTPUT
+echo "Assembly code generated and saved in $OUTPUT"
