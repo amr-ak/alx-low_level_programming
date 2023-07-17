@@ -1,5 +1,2 @@
 #!/bin/bash
-CFILE="main.c"
-OUTPUT="${CFILE%.*}.s"
-gcc -S $CFILE -o $OUTPUT
-echo "Assembly code generated and saved in $OUTPUT"
+gcc -S $CFILE -o 'echo $OUTPUT |cut -d. -f1'.s
