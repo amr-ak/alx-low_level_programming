@@ -1,26 +1,20 @@
-/*
- * File: 3-print_alphabets.c
- * Auth: Brennan D Baraban
- */
-
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase, and then in uppercase.
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char letter;
+char c;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
-
-	putchar('\n');
-
-	return (0);
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
+for (c = 'A'; c <= 'Z'; c++)
+putchar(c);
+putchar('\n');
+return (0);
 }
+
