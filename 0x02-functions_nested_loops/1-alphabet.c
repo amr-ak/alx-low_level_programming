@@ -1,12 +1,7 @@
-/*
- * File: 1-alphabet.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
-
+#include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * print_alphabet - print all alphabet in lowercase
+ * @max - disc
  */
 void print_alphabet(void)
 {
@@ -17,3 +12,4 @@ void print_alphabet(void)
 
 	_putchar('\n');
 }
+

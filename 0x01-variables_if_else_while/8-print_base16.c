@@ -1,27 +1,20 @@
-/*
- * File: 8-print_base16.c
- * Auth: Brennan D Baraban
- */
-
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - Prints all the numbers of base 16 in lowercase.
+ * main - prints all the numbers of base 16 in lowercase,
+ * followed by a new line
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num;
-	char letter;
+char c;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
-	for (letter = 'a'; letter <= 'f'; letter++)
-		putchar(letter);
-
-	putchar('\n');
-
-	return (0);
+for (c = '0'; c <= '9'; c++)
+putchar(c);
+for (c = 'a'; c <= 'f'; c++)
+putchar(c);
+putchar('\n');
+return (0);
 }
+
